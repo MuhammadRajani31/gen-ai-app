@@ -9,7 +9,7 @@ load_dotenv()
 
 st.markdown("<h1 style='color: green;'>Startup Idea Generator ✔</h1>", unsafe_allow_html=True)
 
-user_input = st.text_area("What Business problem you're trying to solve? 💡")
+user_input = st.text_area("What Business problem are you trying to solve? 💡", placeholder="E.g., cookies Business, Education with AI, etc...")
 
 
 
