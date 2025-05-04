@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-st.title("Startup Idea Generator ✔")
+st.markdown("<h1 style='color: green;'>Startup Idea Generator ✔</h1>", unsafe_allow_html=True)
 
 user_input = st.text_area("What Business problem you're trying to solve? 💡")
 
@@ -37,4 +37,4 @@ if st.button("Generate Idea"):
 
 st.write("---")
 
-st.write("App created By Muslim")
+st.write("**App created By Muslim**")
